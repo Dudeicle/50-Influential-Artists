@@ -25,10 +25,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+    I would use an example like Less and explain that something like nesting allows coders to both write code more efficiently and produce code that is more easily accessible to other devs who may work on the same project.
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    My favorite is nesting, being able to nest the majority of the code on the page and then closing those nests allows me to move around the code more easily and more easily understand the layout in my head. The part that gives me the most trouble may be having to remember to activate the less-watch-compiler and ensure the documents are acccurately watching the each other and updating.
+
 3. How would you explain the concept of a variable to someone new to programming?
+    I would say a variable is an undefined value that the dev would declare as they need it, allowing them to reference information outside of whatever piece of code they are currently writing like a function.
+
 4. What is the purpose of using functions in code?
+    functions perform a multitude of tasks using the information within the code.
+
 5. What is a JSON data?
+    a string, number, object, array, or boolean are JSON data types.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -1,0 +1,145 @@
+.title-container {
+    width: 96%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-top: 1%;
+    margin-bottom: 2%;
+
+    @media (max-width:500px) {
+        border-bottom: none;
+    }
+
+    img {
+        max-width: 60%;
+        margin: 0 auto;
+        margin-bottom: 2%;
+
+        @media (max-width:500px){
+        padding-bottom: 2%;
+        border-bottom: 1px solid gray;
+        }
+    }
+
+    h1 {
+        color: white;
+        font-size: 5rem;
+        font-weight: bold;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @media (max-width:500px) {
+            font-size: 2rem;
+            top: 35%;
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .cstButton(10px, 10px);
+
+        @media (max-width:500px) {
+            font-size: 1rem;
+            border-radius: 2px;
+            padding: 4px 8px 4px 8px;
+            top: 60%;
+        }
+    }
+}
+
+
+.artists-container {
+    max-width: 96%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media (max-width:500px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .artist1 {
+        margin: 1% 3%;
+        max-width: 30%;
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width:500px) {
+            max-width: 40%;
+        }
+        
+        img {
+            max-width: 95%;
+            border-radius: 10px;
+        }
+
+        a {
+            font-size: 2rem;
+            text-decoration: none;
+            color: black;
+            margin: 2%;
+            .textAlign();
+
+            @media (max-width:500px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        .bio {
+            max-width: 100%;
+            margin: 2%;
+            .textAlign();
+            .bioFont();
+
+            @media (max-width:500px) {
+                font-size: .7rem;
+            }
+        }
+    }
+
+    .artist2 {
+        margin: 1% 3%;
+        max-width: 30%;
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width:500px) {
+            max-width: 40%;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        a {
+            font-size: 2rem;
+            text-decoration: none;
+            color: black;
+            margin: 2%;
+            .textAlign();
+
+            @media (max-width:500px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        .bio {
+            max-width: 100%;
+            margin: 2%;
+            .textAlign();
+            .bioFont();
+
+            @media (max-width:500px) {
+                font-size: .7rem;
+            }
+        }
+    }
+}
